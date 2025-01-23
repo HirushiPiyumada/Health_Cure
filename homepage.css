@@ -4,9 +4,9 @@ body{
     height: 100vh; 
     margin: 0;
     background: rgba(231,239,241,255);
-    background-size: 55% 100%;
+    background-size: 60% 100%;
     background-image: linear-gradient(to right,rgba(231,239,241,255) 50%,transparent 50%),
-    url(home_page_front_image.jpeg);
+    url(homepage_front_image2.jpeg);
     background-repeat: no-repeat;
     background-position: left, right;
     background-attachment: fixed;
@@ -24,7 +24,7 @@ html{
     display: flex;
     align-items: center;
     margin-top: 10px;
-    background-color: rgba(181,205,215,255);
+    background-color: rgba(181,205,215,0.7);
     padding: 10px 0px;
 }
 
@@ -56,13 +56,15 @@ html{
 }
 
 .dashboard{
+    margin-top: 20px;
     width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 55px;
     font-size: 20px;
-    
+    padding: 10px;
+    padding-top: 1px;
 }
 
 .logsign{
@@ -72,7 +74,7 @@ html{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    font-size: 20px;
+    font-size: 15px;
     
 }
 
@@ -81,6 +83,10 @@ html{
    padding: 10px;
     border: 1px,blue,solid,;
     border-radius: 10px;
+    color: white;
+    width: 60px;
+    align-items: center;
+    justify-content: center;
     
 
 }
@@ -88,9 +94,11 @@ html{
 .Signup{
     background-color: rgba(0,122,255,255);
     padding: 10px;
-    margin-left: 30px;
+    margin-left: 20px;
     border: 1px,blue,solid,;
     border-radius: 10px;
+    color: white;
+    width: 60px;
 }
 
 
@@ -118,23 +126,32 @@ a{
 .Started{
     font-size: 20px;
     background-color: rgba(1,141,198,255);
-    border-radius: 10px;
+    border-radius: 40px;
     color: white; 
-    padding: 10px 20px; 
+    padding: 20px 20px; 
     width: fit-content; 
     box-sizing: border-box; 
-    margin-top: 20px; 
     text-align: center;
+    margin-left: 10px;
 }
 
 .half-circle{
     position: absolute;
-    right: 40%;
+    right: 35%;
   bottom: 0;
-  width: 750px;
-  height: 375px;
+  width: 700px;
+  height: 350px;
   background-color:  rgba(143,194,215,0.7);
   border-top-left-radius: 1200px;
   border-top-right-radius: 1200px;
  
+}
+
+.content2{
+    color: black;
+    font-size: 15px;
+    margin-top: -30px;
+    margin-right: 60px;
+    letter-spacing: 0.5px;
+    margin-bottom: 40px;
 }
