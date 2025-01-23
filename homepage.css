@@ -3,9 +3,9 @@ body{
     flex-direction: column;
     height: 100vh; 
     margin: 0;
-    background: lightgray;
+    background: rgba(231,239,241,255);
     background-size: 55% 100%;
-    background-image: linear-gradient(to right,lightgray 50%,transparent 50%),
+    background-image: linear-gradient(to right,rgba(231,239,241,255) 50%,transparent 50%),
     url(home_page_front_image.jpeg);
     background-repeat: no-repeat;
     background-position: left, right;
@@ -24,7 +24,7 @@ html{
     display: flex;
     align-items: center;
     margin-top: 10px;
-    background-color: rgb(191, 233, 249,0.7);
+    background-color: rgba(181,205,215,255);
     
     padding: 10px 0px;
 }
@@ -36,12 +36,32 @@ html{
     align-items: center;
 }
 
+.health_cure_logo{
+    width: 50px;
+    height: auto;
+    border: 1px,black,solid;
+    border-radius: 50px;
+}
+
+.health{
+    padding-left: 10px;
+    font-weight: bolder;
+    font-size: 15px;
+    color: rgba(41,41,101,255);
+}
+
+.cure{
+    font-weight: bolder;
+    font-size: 15px;
+    padding-left: 3px;
+}
+
 .dashboard{
     width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 30px;
     font-size: 20px;
     
 }
@@ -85,13 +105,14 @@ a{
     flex-direction: column;
     justify-content: center;
     width: 30%;
-    color: rgb(60, 60, 203);
+    color: rgb(49, 49, 173);
     padding-left: 20px;
     font-size: 40px;
     justify-content: center;
     height: 100%;
     box-sizing: border-box;
     text-align: center;
+    font-weight: 500;
 
 }
 
@@ -111,9 +132,9 @@ a{
     position: absolute;
     right: 40%;
   bottom: 0;
-  width: 800px;
-  height: 400px;
-  background-color:  rgb(191, 233, 249,0.7);
+  width: 750px;
+  height: 375px;
+  background-color:  rgba(143,194,215,0.7);
   border-top-left-radius: 1200px;
   border-top-right-radius: 1200px;
  
